@@ -1,10 +1,8 @@
 <?php
-/* Шаблон Фабричный*/
-use controller\FabricController\Ford;
-use controller\FabricController\Lada;
+
+require_once 'function.php';
+
+$controller = new \controllers\FabricPatternController\PatternsController();
 
 /* Шаблон Фабричный*/
-include "controller/FabricPatternController.php";
-new Ford('Focus 1', 'Белый');
-new Lada('Calina', 'Красный');
-
+$controller->Fabric();
