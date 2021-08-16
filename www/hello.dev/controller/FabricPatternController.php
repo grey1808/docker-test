@@ -17,7 +17,8 @@ class Ford implements Fabric
 
     public function __construct($name,$color)
     {
-        echo '<h1>' .$this->fabricName. '</h1>';
+        echo '<h1>Фабричный паттерн</h1>';
+        echo '<h2>' .$this->fabricName. '</h2>';
         $this->name = $name;
         $this->color = $color;
         $this->name();
@@ -45,7 +46,7 @@ class Lada implements Fabric
 
     public function __construct($name,$color)
     {
-        echo '<h1>' .$this->fabricName. '</h1>';
+        echo '<h2>' .$this->fabricName. '</h2>';
         $this->name = $name;
         $this->color = $color;
         $this->name();
