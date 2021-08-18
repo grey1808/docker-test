@@ -29,3 +29,11 @@ echo '<h2>Создать автомобиль</h2>';
 $director->constructSportsCar($car);
 echo '<h2>Создать руководство пользователя</h2>';
 $director->constructSportsCar($manual);
+
+
+
+/* Шаблон Прототип */
+echo '<br>';
+use controller\FabricController\PrototypePatternController;
+include "controller/PrototypePatternController.php";
+$abstract = new \controller\FabricController\PrototypeCar();

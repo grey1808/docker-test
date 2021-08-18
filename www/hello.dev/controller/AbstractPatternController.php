@@ -2,8 +2,6 @@
 
 namespace controller\AbstractPatternController;
 
-use controller\FabricController\Ford;
-use controller\FabricController\Lada;
 
 interface AbstractFabric
 {
